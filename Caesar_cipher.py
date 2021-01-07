@@ -5,7 +5,7 @@ for i in range(26):
     for j in range(len(a)):
         ans = ord(a[j])
         if 96 < ans < 123:
-            if ans+i > 123:
+            if ans+i > 122:
                 ans = ans - 26
 
             c = chr(ans+i)
